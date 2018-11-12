@@ -1,0 +1,174 @@
+/*--------------------------------------
+Prototype Style Sheet (empty commented stylesheet)
+version:   1.0
+author:    Chuck Obaze
+email:     obazechuck@gmail.com
+website:   http://bignerdranch.com
+--------------------------------*/
+
+/* Remember Order Of Styling Links
+a:link, a:visited, a:hover, a:focus, a:active
+--------------------------------*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+div.wrapper {
+    display: inline-block;
+}
+
+section.bg-hero-img {
+    background-image: url(../imgs/hero-img.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 80px;
+    padding-bottom: 75px;
+}
+
+div.bg-container {
+    margin: 0 auto;
+    width: 1310px;
+    max-width: 100%;
+}
+
+div.bg-container h1 {
+    width: 305px;
+    max-width: 100%;
+    text-align: left;
+    background-color: #e5ac24;
+    color: #FFFFFF;
+    padding: 10px 10px 10px 10px;
+    font-weight: 100;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+div.bg-container h2 {
+    width: 409px;
+    max-width: 100%;
+    text-align: left;
+    background-color: #E5AC24;
+    color: #FFFFFF;
+    padding: 10px 10px 10px 10px;
+    font-weight: 100;
+    display: block;
+    margin-bottom: 10px;
+}
+
+div.bg-container p {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+section.join-us {
+    display: inline;
+    margin: 0 auto;
+    float: left;
+    width: 755px;
+    padding: 65px;
+    box-sizing: border-box;
+}
+
+section.e-section {
+    display: inline;
+    margin: 0 auto;
+    float: left;
+    width: 755px;
+    padding: 0 65px 65px 65px;
+    box-sizing: border-box;
+}
+
+div.ju-container h2,
+div.e-container h2 {
+    color: #3C3F33;
+    text-align: left;
+    font-size: 35px;
+}
+
+div.ju-container h2:after {
+    border-bottom: 2px solid #E5AC24;
+    content: '';
+    display: block;
+    width: 120px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+div.e-container h2:after {
+    border-bottom: 2px solid #E5AC24;
+    content: '';
+    display: block;
+    width: 350px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+div.ju-container p {
+    color: #3C3F33;
+    text-align: left;
+}
+
+aside.pdot-form {
+    float: right;
+    width: 608px;
+    height: 685px;
+    margin-right: 70px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding-top: 25px;
+}
+
+section.ready{
+    clear: both;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #505153;
+}
+
+section.ready h3{
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+section.ready p{
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+div.sign-btn{
+    margin: 30px auto 0px auto;
+    width: 319px;
+}
+
+a.btn{
+    padding: 20px 90px;
+    font-size: 17px;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+    background-color: #de4d28;
+    border: 1px solid #de4d28;
+    text-decoration: none;
+}
+
+footer.footer {
+    clear: both;
+}
+
+iframe{
+    width: 607px;
+    height: 515px;
+    border: solid #E5AC24 3px
+}
