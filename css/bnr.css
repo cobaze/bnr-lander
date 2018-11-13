@@ -39,7 +39,7 @@ div.bg-container {
 }
 
 div.bg-container h1 {
-    width: 305px;
+    width: 320px;
     max-width: 100%;
     text-align: left;
     background-color: #e5ac24;
@@ -69,21 +69,28 @@ div.bg-container p {
 
 section.join-us {
     display: inline;
-    margin: 0 auto;
+    margin-left: 300px;
+    margin-top: 80px;
     float: left;
     width: 755px;
-    padding: 65px;
     box-sizing: border-box;
 }
 
 section.e-section {
     display: inline;
-    margin: 0 auto;
+    margin-left: 300px;
+    margin-top: 80px;
     float: left;
     width: 755px;
-    padding: 0 65px 65px 65px;
+    padding-left: 15px;
     box-sizing: border-box;
 }
+
+/*
+div.ju-container{
+    width: 1310px;
+}
+*/
 
 div.ju-container h2,
 div.e-container h2 {
@@ -118,14 +125,22 @@ div.ju-container p {
 aside.pdot-form {
     float: right;
     width: 608px;
-    height: 685px;
-    margin-right: 70px;
-    margin-top: 50px;
+    height: 700px;
+    margin-right: 120px;
+    margin-top: -240px;
     box-sizing: border-box;
     padding-top: 25px;
 }
 
-section.ready{
+iframe {
+    width: 607px;
+    height: 600px;
+    border: solid #E5AC24 3px;
+    padding-top: 30px;
+    background-color: #FFFFFF;
+}
+
+section.ready {
     clear: both;
     box-sizing: border-box;
     padding-top: 50px;
@@ -133,24 +148,25 @@ section.ready{
     background-color: #505153;
 }
 
-section.ready h3{
+section.ready h3 {
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 15px
+}
+
+section.ready p {
     text-align: center;
     font-weight: bold;
     color: #FFFFFF;
 }
 
-section.ready p{
-    text-align: center;
-    font-weight: bold;
-    color: #FFFFFF;
-}
-
-div.sign-btn{
-    margin: 30px auto 0px auto;
+div.sign-btn {
+    margin: 20px auto 0px auto;
     width: 319px;
 }
 
-a.btn{
+a.btn {
     padding: 20px 90px;
     font-size: 17px;
 }
@@ -167,8 +183,161 @@ footer.footer {
     clear: both;
 }
 
-iframe{
-    width: 607px;
-    height: 515px;
-    border: solid #E5AC24 3px
+/* Mobile */
+
+@media screen and (min-width: 320px) and (max-width: 812px) {
+
+
+    div.wrapper {
+        width: 100%;
+    }
+
+    section.bg-hero-img {}
+
+    div.bg-container {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    div.bg-container h1 {
+        text-align: center;
+        width: 100%;
+    }
+
+    div.bg-container h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    div.bg-container p {
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+    section.join-us {
+        display: inline;
+        width: 100%;
+        box-sizing: border-box;
+        margin-left: 0px;
+        margin-top: 20px;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+    aside.pdot-form {
+        width: 608px;
+        height: 700px;
+        margin-right: 120px;
+        margin-top: 70px;
+        box-sizing: border-box;
+        padding-top: 25px;
+    }
+
+    section.e-section {
+        display: inline;
+        width: 100%;
+        box-sizing: border-box;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    ul.e-list {
+        box-sizing: border-box;
+        padding-left: 10px;
+        padding-right: 10px
+    }
+
+    div.ju-container h2 {
+        color: #3C3F33;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    div.e-container h2 {
+        color: #3C3F33;
+        text-align: center;
+        font-size: 35px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+
+    div.ju-container h2:after {
+        border-bottom: 2px solid #E5AC24;
+        content: '';
+        display: block;
+        width: 120px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 117px;
+    }
+
+    aside.pdot-form {
+        width: 100%;
+        height: 1065px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        box-sizing: border-box;
+    }
+
+    iframe {
+        width: 100%;
+        height: 1065px;
+        border: solid #E5AC24 3px;
+        background-color: #FFFFFF;
+    }
+}
+
+/* Laptops */
+
+@media screen and (min-width: 775px) and (max-width: 1440px) {
+
+    div.ju-container {
+
+    }
+
+    div.bg-container {
+        margin: 0 auto;
+        width: 1280px;
+        max-width: 100%;
+        border: solid red 1px;
+    }
+
+    div.bg-container h1 {}
+
+    div.bg-container h2 {}
+
+    section.join-us {
+        display: inline;
+        margin-left: 80px;
+        margin-top: 80px;
+        float: left;
+        width: 650px;
+        box-sizing: border-box;
+        border: solid green 1px;
+    }
+
+    section.e-section {
+        display: inline;
+        margin-left: 80px;
+        margin-top: 80px;
+        float: left;
+        width: 650px;
+        padding-left: 15px;
+        box-sizing: border-box;
+        border: solid green 1px;
+    }
+
+    aside.pdot-form {
+        float: right;
+        width: 608px;
+        height: 700px;
+        margin-right: 80px;
+        margin-top: -290px;
+        box-sizing: border-box;
+        padding-top: 0px;
+    }
+
 }
