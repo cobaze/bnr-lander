@@ -1,8 +1,1 @@
-* {
-  padding: 0;
-  margin: 0;
-}
-
-div.wrapper {
-  border: sol;
-}
+*{padding:0;margin:0}div.main-body{border:solid 1px red}header.main-header{background-color:#fff !important}nav.main-nav{border:solid 1px red}nav.main-nav ul{background-color:#fff !important}

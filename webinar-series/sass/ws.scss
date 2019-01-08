@@ -13,8 +13,12 @@ a:link, a:visited, a:hover, a:focus, a:active
 /* imports
 --------------------------------*/
 
+@import 'color';
+
 /* SASS Variables
 --------------------------------*/
+
+$border: solid 1px;
 
 /* SASS Extends
 --------------------------------*/
@@ -24,6 +28,18 @@ a:link, a:visited, a:hover, a:focus, a:active
   margin: 0;
 }
 
-div.wrapper{
+div.main-body{
+  border: $border red;
+}
+
+header.main-header{
+  background-color: $white-color !important;
+}
+
+nav.main-nav{
+  border: $border red;
+  ul{
+    background-color: $white-color !important;
+  }
 
 }
