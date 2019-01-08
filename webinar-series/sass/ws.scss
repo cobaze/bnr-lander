@@ -36,6 +36,19 @@ header.main-header{
   background-color: $white-color !important;
 }
 
+div.bnr-logo{
+    width: 10rem !important;
+    max-width: 100%;
+    border: $border red;
+
+    a{
+
+        img{
+            width: 10rem;
+        }
+    }
+}
+
 nav.main-nav{
   border: $border red;
   ul{
